@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Click the Moving Button!</h1>
+  <p>Score: <span id="score">0</span></p>
+  <button id="moving-button">Click Me!</button>
+  <script src="script.js"></script>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyB7E-khpbvFs2sRgaR8AwpMwsyVl2lbY2Q",
+      authDomain: "game-cd4fe.firebaseapp.com",
+      projectId: "game-cd4fe",
+      storageBucket: "game-cd4fe.firebasestorage.app",
+      messagingSenderId: "658025238864",
+      appId: "1:658025238864:web:b191f4691987dfa92b1c55",
+      measurementId: "G-5DB4TDLJJR"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>

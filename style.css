@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #score {
+    font-weight: bold;
+    color: #0078D7;
+  }
+  
+  #moving-button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #moving-button:hover {
+    background-color: #005bb5;
+  }
+  
